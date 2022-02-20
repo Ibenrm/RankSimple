@@ -1,0 +1,25 @@
+---
+################
+# LANGUAGE.YML #
+################
+# AUTHOR: Ibenrm01
+
+# MONEY
+not.enough.money: "§eRankSimple > §cYou don't have enough money!"
+
+# RANK
+you.dont.have.ranks: "§eRankSimple > §cYou don't have ranks!"
+# # CREATED
+rank-create.already: "§eRankSimple > §cRank §d{rank} §calready created!"
+rank-create.success: "§eRankSimple > §aSuccessfully created Rank: §d{rank} §aType: §d{type} §d{days}§ad, §d{hours}§ah, §d{minutes}§am, §d{seconds}§as"
+# # REMOVED
+rank-remove.not-found: "§eRankSimple > §cRank §d{rank} §cnot found!"
+rank-remove.success: "§eRankSimple > §aSuccessfully removed Rank: §d{rank}"
+# # SETUP
+rank-setup.not-found: "§eRankSimple > §cRank §d{rank} §cnot found!"
+rank-setup.success.player: "§eRankSimple > §aSuccessfully sets Rank: §d{rank} §aType: §d{type} §d{days}§ad, §d{hours}§ah, §d{minutes}§am, §d{seconds}§as"
+rank-setup.success.another: "§eRankSimple > §aPlayer §d{username} §asets Rank: §d{rank}"
+# # UNSET
+rank-unset.success.player: "§eRankSimple > §aYou ranks §d{rank} §aExpired!"
+rank-unset.success.another: "§eRankSimple > §aPlayer §d{username} §aranks §d{rank} §aExpired!"
+...

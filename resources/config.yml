@@ -1,0 +1,40 @@
+---
+##############
+# CONFIG.YML #
+##############
+# AUTHOR: Ibenrm01
+
+# Repeating Task (Schedule)
+refresh-rank.time: 1 
+
+# Default Rank
+# # Sets back rank expired to default
+default-rank: "Guest"
+
+# Forms
+# # Shop (SIMPLE)
+forms.shop:
+  title: "§l§eRank Shop"
+  # tags : {username}, {money}
+  content: "§aYour, §d{username}\n§aMoney: §b{money}"
+  # tags : {rank}, {price}
+  button: "§b{rank}\n§aPrice: §6{price}"
+  button-close: "§cClose"
+# # Shop Accept (MODAL)
+forms.shop.acc:
+  # tags :  {rank}
+  title: "§l§eRank §6{rank}"
+  content: "§aYour, §d{username}\n§aMoney: §b{money}\n\n§bRanks: §6{rank}\n§bType: §6{type}\n§bPrice: §6{price}\n\n§7Expired: {days}d, {hours}h, {minutes}m, {seconds}s"
+# # Created (CUSTOM)
+forms.create:
+  title: "§l§eRank Created"
+  label: "§bMake Configurasi Ranks!"
+  dropdown-rank: "§6List ranks"
+  dropdown-type: "§6Select a type (temporary/permanent)"
+  dropdown-icon: "§6Select a Icons"
+  input-price: "§6input a price"
+  slider-days: "§6Sets days"
+  slider-hours: "§6Sets hours"
+  slider-minutes: "§6Sets minutes"
+  slider-seconds: "§6Sets seconds"
+...

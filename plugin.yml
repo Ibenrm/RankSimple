@@ -1,0 +1,17 @@
+name: RankSimple
+main: RankSimple\Ibenrm01\Main
+version: 1.0.0
+api: [4.0.0]
+author: Ibenrm01
+depend: [EconomyAPI, PurePerms]
+
+permissions:
+  ranksimple.delete:
+    default: op
+    description: "Allows you to delete ranks"
+  ranksimple.create:
+    default: op
+    description: "Allows you to make ranks"
+  ranksimple.sets:
+    default: op
+    description: "Allows you to sets rank"
