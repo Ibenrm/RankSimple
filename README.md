@@ -2,11 +2,11 @@
 **RankSimple is a Feature for PocketMine-MP 4.0.0+**
 
 ## Support
-- - Temporary
-- - Permanent
-- - Shopping
-- - Anti Downgrade
-- - Discount
+- - Temporary (d,h,m,s)
+- - Permanent (forever)
+- - Shoping (Shop system)
+- - Anti Downgrade (price comparison system)
+- - Discount (discount according to the rest of the day)
 
 ## Depends
 - - https://poggit.pmmp.io/p/EconomyAPI/5.7.3-PM4 (EconomyAPI)
